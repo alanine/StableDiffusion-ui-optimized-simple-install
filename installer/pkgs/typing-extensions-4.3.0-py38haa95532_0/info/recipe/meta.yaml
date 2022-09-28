@@ -1,0 +1,65 @@
+# This file created by conda-build 3.21.9
+# ------------------------------------------------
+
+package:
+  name: typing-extensions
+  version: 4.3.0
+source:
+  sha256: e6d2677a32f47fc7eb2795db1dd15c1f34eff616bcaf2cfb5e997f854fa1c4a6
+  url: https://pypi.io/packages/source/t/typing_extensions/typing_extensions-4.3.0.tar.gz
+build:
+  number: 0
+  string: py38haa95532_0
+requirements:
+  host:
+    - ca-certificates 2022.07.19 haa95532_0
+    - openssl 1.1.1q h2bbff1b_0
+    - python 3.8.13 h6244533_0
+    - sqlite 3.39.0 h2bbff1b_0
+    - vc 14.2 h21ff451_1
+    - vs2015_runtime 14.27.29016 h5e58377_2
+  run:
+    - python >=3.8,<3.9.0a0
+    - typing_extensions 4.3.0 py38haa95532_0
+test:
+  commands:
+    - pip check
+  imports:
+    - typing_extensions
+  requires:
+    - pip
+about:
+  description: 'The typing module was added to the standard library in Python 3.5,
+    but
+
+    many new features have been added to the module since then.
+
+    This means users of older Python versions who are unable to upgrade will not be
+
+    able to take advantage of new types added to the typing module, such as
+
+    typing.Protocol or typing.TypedDict.
+
+
+    The typing_extensions module contains backports of these changes.
+
+    Experimental types that will eventually be added to the ``typing``
+
+    module are also included in typing_extensions.
+
+    '
+  dev_url: https://github.com/python/typing_extensions
+  doc_url: https://github.com/python/typing_extensions/blob/main/README.md
+  home: https://github.com/python/typing_extensions
+  license: PSF-2.0
+  license_family: PSF
+  license_file: LICENSE
+  summary: Backported and Experimental Type Hints for Python
+extra:
+  copy_test_source_files: true
+  final: true
+  flow_run_id: 640ead0f-4b65-4f8a-b59d-501abf155225
+  recipe-maintainers:
+    - djsutherland
+  remote_url: git@github.com:AnacondaRecipes/typing_extensions-feedstock.git
+  sha: 97ae917fe096eef7db3c30fe3793adf683b1c5c3

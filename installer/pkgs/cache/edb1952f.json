@@ -1,0 +1,1623 @@
+{"_url": "https://conda.anaconda.org/pytorch/noarch", "_etag": "W/\"4d6dd4516f696becc834650b3d3f8d5c\"", "_mod": "Fri, 12 Aug 2022 21:42:37 GMT", "_cache_control": "public, max-age=1200", 
+  "info": {
+    "subdir": "noarch"
+  },
+  "packages": {
+    "botorch-0.1.0-0.tar.bz2": {
+      "build": "0",
+      "build_number": 0,
+      "depends": [
+        "gpytorch >=0.3.2",
+        "libedit >=3.1.20181209,<3.2.0a0",
+        "libffi >=3.2.1,<4.0a0",
+        "ncurses >=6.1,<7.0a0",
+        "openssl >=1.1.1b,<1.1.2a",
+        "pytorch >=1.1",
+        "readline >=7.0,<8.0a0",
+        "scipy",
+        "sqlite >=3.28.0,<4.0a0",
+        "tk >=8.6.8,<8.7.0a0",
+        "xz >=5.2.4,<6.0a0",
+        "zlib >=1.2.11,<1.3.0a0"
+      ],
+      "license": "MIT",
+      "md5": "8acc6c767a9728c45da8ef956ede5db3",
+      "name": "botorch",
+      "noarch": "python",
+      "sha256": "adc8db59f8cb4e0b295682198cf1d56f27b80785a2f60ad25246aeb9b00a0174",
+      "size": 66472,
+      "subdir": "noarch",
+      "timestamp": 1556673356085,
+      "version": "0.1.0"
+    },
+    "botorch-0.1.1-0.tar.bz2": {
+      "build": "0",
+      "build_number": 0,
+      "depends": [
+        "gpytorch >=0.3.3",
+        "pytorch >=1.1",
+        "scipy"
+      ],
+      "license": "MIT",
+      "md5": "c2bdc517ed4812e0f6da2977e4cf55b5",
+      "name": "botorch",
+      "noarch": "python",
+      "sha256": "d89201b906997b5e336732e0dc488d26877bfa17066208442132572eb8f0ad11",
+      "size": 81820,
+      "subdir": "noarch",
+      "timestamp": 1561681553045,
+      "version": "0.1.1"
+    },
+    "botorch-0.1.2-0.tar.bz2": {
+      "build": "0",
+      "build_number": 0,
+      "depends": [
+        "gpytorch >=0.3.4",
+        "pytorch >=1.1",
+        "scipy"
+      ],
+      "license": "MIT",
+      "md5": "97111857089cb07b8586d56444986cea",
+      "name": "botorch",
+      "noarch": "python",
+      "sha256": "40e821691dded3db57f6920197db7b3990ce6f5afe45f3afbaa7755a12a6a86d",
+      "size": 86149,
+      "subdir": "noarch",
+      "timestamp": 1562724855310,
+      "version": "0.1.2"
+    },
+    "botorch-0.1.3-0.tar.bz2": {
+      "build": "0",
+      "build_number": 0,
+      "depends": [
+        "gpytorch >=0.3.5",
+        "pytorch >=1.2",
+        "scipy"
+      ],
+      "license": "MIT",
+      "md5": "3739171a123881b4e895e70bec098c91",
+      "name": "botorch",
+      "noarch": "python",
+      "sha256": "d4bf47d51507808edb1067247d4ef310b441196458b0e0d6318173cbdf28898c",
+      "size": 90650,
+      "subdir": "noarch",
+      "timestamp": 1565477592893,
+      "version": "0.1.3"
+    },
+    "botorch-0.1.4-0.tar.bz2": {
+      "build": "0",
+      "build_number": 0,
+      "depends": [
+        "gpytorch >=0.3.5",
+        "pytorch >=1.2",
+        "scipy"
+      ],
+      "license": "MIT",
+      "md5": "a410a0e7cfa86352559a9ea0ece8d92f",
+      "name": "botorch",
+      "noarch": "python",
+      "sha256": "5c8556bcc6ee1c293b46a87c8790dd1e6065e6c090d0e65e7a53bf7242616283",
+      "size": 98407,
+      "subdir": "noarch",
+      "timestamp": 1569978463918,
+      "version": "0.1.4"
+    },
+    "botorch-0.2.0-0.tar.bz2": {
+      "build": "0",
+      "build_number": 0,
+      "depends": [
+        "gpytorch >=1.0.0",
+        "pytorch >=1.3.1",
+        "scipy"
+      ],
+      "license": "MIT",
+      "md5": "0680c4e30299b2b9f45246c1f30fec70",
+      "name": "botorch",
+      "noarch": "python",
+      "sha256": "7c21b47524ade43a2a30ac593e8b451415d5f38b2458657649099c64269b59f6",
+      "size": 119342,
+      "subdir": "noarch",
+      "timestamp": 1576878509637,
+      "version": "0.2.0"
+    },
+    "botorch-0.2.1-0.tar.bz2": {
+      "build": "0",
+      "build_number": 0,
+      "depends": [
+        "gpytorch >=1.0.0",
+        "pytorch >=1.3.1",
+        "scipy"
+      ],
+      "license": "MIT",
+      "md5": "a2914c150aebc70a353c166b0bd0022a",
+      "name": "botorch",
+      "noarch": "python",
+      "sha256": "dab0787ff74c5dfb01d28963ab07c51832eb0ada250d8f4e7aff214e9db24a4c",
+      "size": 120013,
+      "subdir": "noarch",
+      "timestamp": 1579202732320,
+      "version": "0.2.1"
+    },
+    "botorch-0.2.2-0.tar.bz2": {
+      "build": "0",
+      "build_number": 0,
+      "depends": [
+        "gpytorch >=1.0.0",
+        "libedit >=3.1.20181209,<3.2.0a0",
+        "libffi >=3.2.1,<4.0a0",
+        "ncurses >=6.2,<7.0a0",
+        "openssl >=1.1.1d,<1.1.2a",
+        "pytorch >=1.4",
+        "readline >=7.0,<8.0a0",
+        "scipy",
+        "sqlite >=3.31.1,<4.0a0",
+        "tk >=8.6.8,<8.7.0a0",
+        "xz >=5.2.4,<6.0a0",
+        "zlib >=1.2.11,<1.3.0a0"
+      ],
+      "license": "MIT",
+      "md5": "4328abe1eacc69b1e1d440fc70654879",
+      "name": "botorch",
+      "noarch": "python",
+      "sha256": "ac2f5652415361261d84e0b9bd1bebdeb3e0cb82210f42082c43c7eacbdc502b",
+      "size": 126081,
+      "subdir": "noarch",
+      "timestamp": 1583768054704,
+      "version": "0.2.2"
+    },
+    "botorch-0.2.3-0.tar.bz2": {
+      "build": "0",
+      "build_number": 0,
+      "depends": [
+        "gpytorch >=1.1.1",
+        "pytorch >=1.5",
+        "scipy"
+      ],
+      "license": "MIT",
+      "md5": "05167ba2e312fc676e7265ba3e8ba512",
+      "name": "botorch",
+      "noarch": "python",
+      "sha256": "07554e14a8cda159f2b56f669c6065719c89dda91d34b0867c112a4ff22dc4c5",
+      "size": 143722,
+      "subdir": "noarch",
+      "timestamp": 1587925506104,
+      "version": "0.2.3"
+    },
+    "botorch-0.2.4-0.tar.bz2": {
+      "build": "0",
+      "build_number": 0,
+      "depends": [
+        "gpytorch >=1.1.1",
+        "pytorch >=1.5",
+        "scipy"
+      ],
+      "license": "MIT",
+      "md5": "616d99603a590c62cbea9e75ef5b45d1",
+      "name": "botorch",
+      "noarch": "python",
+      "sha256": "1e1d18c0941209b558d39383856d8d8abe09cbd937445fb39fb0bb21ee2f0470",
+      "size": 150042,
+      "subdir": "noarch",
+      "timestamp": 1589387210093,
+      "version": "0.2.4"
+    },
+    "botorch-0.2.5-0.tar.bz2": {
+      "build": "0",
+      "build_number": 0,
+      "depends": [
+        "gpytorch >=1.1.1",
+        "pytorch >=1.5",
+        "scipy"
+      ],
+      "license": "MIT",
+      "md5": "8646c2eb39d6f2b42a93c0631aa45ac7",
+      "name": "botorch",
+      "noarch": "python",
+      "sha256": "af6203b3cdcc1059fada95acfbbd5d752e5ac9a34113dd3462529b8aba786e47",
+      "size": 147343,
+      "subdir": "noarch",
+      "timestamp": 1589477365607,
+      "version": "0.2.5"
+    },
+    "botorch-0.3.0-0.tar.bz2": {
+      "build": "0",
+      "build_number": 0,
+      "depends": [
+        "gpytorch >=1.1.1",
+        "pytorch >=1.5",
+        "scipy"
+      ],
+      "license": "MIT",
+      "md5": "f3c56f5add82f1b8478ef7b15b846fd1",
+      "name": "botorch",
+      "noarch": "python",
+      "sha256": "de6ad928736c9468435d63db0c94e7e7a72e10a775b084a13c9d8c6287611a4c",
+      "size": 174157,
+      "subdir": "noarch",
+      "timestamp": 1594070557498,
+      "version": "0.3.0"
+    },
+    "botorch-0.3.1-0.tar.bz2": {
+      "build": "0",
+      "build_number": 0,
+      "depends": [
+        "gpytorch >=1.2",
+        "pytorch >=1.6",
+        "scipy"
+      ],
+      "license": "MIT",
+      "md5": "f779bb1365ba069009b4a274bc31bbaf",
+      "name": "botorch",
+      "noarch": "python",
+      "sha256": "65c7b5b20af49d6e5bdc289673e17086e07a2b99790aebd8142aeaf6c148dab7",
+      "size": 213812,
+      "subdir": "noarch",
+      "timestamp": 1600221691389,
+      "version": "0.3.1"
+    },
+    "botorch-0.3.2-0.tar.bz2": {
+      "build": "0",
+      "build_number": 0,
+      "depends": [
+        "gpytorch >=1.2",
+        "pytorch >=1.6",
+        "scipy"
+      ],
+      "license": "MIT",
+      "md5": "a8c39d809f25a985f079d66c4618bd21",
+      "name": "botorch",
+      "noarch": "python",
+      "sha256": "7e9b992ed09e28b63bcd7a0f2f2967aaf9e7e8a0d6df52962b577e3c4658d3b1",
+      "size": 222511,
+      "subdir": "noarch",
+      "timestamp": 1603686615543,
+      "version": "0.3.2"
+    },
+    "botorch-0.3.3-0.tar.bz2": {
+      "build": "0",
+      "build_number": 0,
+      "depends": [
+        "gpytorch >=1.2",
+        "pytorch >=1.6",
+        "scipy"
+      ],
+      "license": "MIT",
+      "md5": "23ce551a2cc1531cb512414638ec5235",
+      "name": "botorch",
+      "noarch": "python",
+      "sha256": "efe9657b98cf210d1a8b4c758909c7d3ae6ad0f9b3f5ed6ffd32c52f7f2c0f45",
+      "size": 249353,
+      "subdir": "noarch",
+      "timestamp": 1607409856177,
+      "version": "0.3.3"
+    },
+    "botorch-0.4.0-0.tar.bz2": {
+      "build": "0",
+      "build_number": 0,
+      "depends": [
+        "gpytorch >=1.4",
+        "pytorch >=1.7.1",
+        "scipy"
+      ],
+      "license": "MIT",
+      "md5": "2756841a38aca99cc470438f8217c75f",
+      "name": "botorch",
+      "noarch": "python",
+      "sha256": "d6d9fb6824b440cbfe8904b860bf57914f9f9b4e18327a2f6dfb8017baf0eda0",
+      "size": 276027,
+      "subdir": "noarch",
+      "timestamp": 1614118406744,
+      "version": "0.4.0"
+    },
+    "botorch-0.5.0-0.tar.bz2": {
+      "build": "0",
+      "build_number": 0,
+      "depends": [
+        "gpytorch >=1.5",
+        "pytorch >=1.8.1",
+        "scipy"
+      ],
+      "license": "MIT",
+      "md5": "acdd6ff9dd96f58f0a3aed30defe6c39",
+      "name": "botorch",
+      "noarch": "python",
+      "sha256": "175ac44b1d2e63df37b42b8c1b26b35bd439d3d5b385361884e270a0ef0afed1",
+      "size": 317059,
+      "subdir": "noarch",
+      "timestamp": 1624995478757,
+      "version": "0.5.0"
+    },
+    "botorch-0.5.1-0.tar.bz2": {
+      "build": "0",
+      "build_number": 0,
+      "depends": [
+        "gpytorch >=1.5.1",
+        "pytorch >=1.8.1",
+        "scipy"
+      ],
+      "license": "MIT",
+      "md5": "a51412c47da1799c4eeeb43deec82a7f",
+      "name": "botorch",
+      "noarch": "python",
+      "sha256": "5cefdb20ec449257fb16dd01ade64f5154555fe8dcd588e73ad5711bdf170314",
+      "size": 325985,
+      "subdir": "noarch",
+      "timestamp": 1630615851230,
+      "version": "0.5.1"
+    },
+    "botorch-0.6.0-0.tar.bz2": {
+      "build": "0",
+      "build_number": 0,
+      "depends": [
+        "gpytorch >=1.6",
+        "pytorch >=1.9",
+        "scipy"
+      ],
+      "license": "MIT",
+      "md5": "202ad2b1392bf4134f7a454255b096ce",
+      "name": "botorch",
+      "noarch": "python",
+      "sha256": "b26b51707a3ce10c99c2ab16430f89453e018776d273dfc5df36c86ca77db6c5",
+      "size": 245473,
+      "subdir": "noarch",
+      "timestamp": 1639013360768,
+      "version": "0.6.0"
+    },
+    "botorch-0.6.1-0.tar.bz2": {
+      "build": "0",
+      "build_number": 0,
+      "depends": [
+        "gpytorch >=1.6",
+        "pytorch >=1.9",
+        "scipy"
+      ],
+      "license": "MIT",
+      "md5": "b071c0d864151ae7629aa4c4324331de",
+      "name": "botorch",
+      "noarch": "python",
+      "sha256": "f077f7eb3ca2ec36f058441dc11ca246b458ff7bcd5f75aa6580051b29c833c5",
+      "size": 274535,
+      "subdir": "noarch",
+      "timestamp": 1646089053743,
+      "version": "0.6.1"
+    },
+    "botorch-0.6.2-0.tar.bz2": {
+      "build": "0",
+      "build_number": 0,
+      "depends": [
+        "gpytorch >=1.6",
+        "pytorch >=1.9",
+        "scipy"
+      ],
+      "license": "MIT",
+      "md5": "686c1845b5a51b73024f388823bb478b",
+      "name": "botorch",
+      "noarch": "python",
+      "sha256": "0cd767588adbd5a27f3c5334dd1fff6b648125ab3fe4fd88024bd28150fb0dc9",
+      "size": 275547,
+      "subdir": "noarch",
+      "timestamp": 1646866813554,
+      "version": "0.6.2"
+    },
+    "botorch-0.6.3.1-0.tar.bz2": {
+      "build": "0",
+      "build_number": 0,
+      "depends": [
+        "gpytorch >=1.6",
+        "pyro-ppl 1.8.0.*",
+        "pytorch >=1.9",
+        "scipy"
+      ],
+      "license": "MIT",
+      "md5": "49bdd2dbf5b6128e2cad8ade8ba2608e",
+      "name": "botorch",
+      "noarch": "python",
+      "sha256": "8e42d97ca3f175953f4eb1dd33137adbcfe76b7b4b3af17636c8a1968feaba7e",
+      "size": 280768,
+      "subdir": "noarch",
+      "timestamp": 1648428285375,
+      "version": "0.6.3.1"
+    },
+    "botorch-0.6.4-0.tar.bz2": {
+      "build": "0",
+      "build_number": 0,
+      "depends": [
+        "gpytorch >=1.6",
+        "pyro-ppl 1.8.0.*",
+        "pytorch >=1.9",
+        "scipy"
+      ],
+      "license": "MIT",
+      "md5": "4f16dcc3667cc92b7d88547301e1c8c8",
+      "name": "botorch",
+      "noarch": "python",
+      "sha256": "b6b0390d7e992a6a569bd9a7985434a7d5b7939d5d2fa15e4d648efcc02db676",
+      "size": 269771,
+      "subdir": "noarch",
+      "timestamp": 1650587133176,
+      "version": "0.6.4"
+    },
+    "botorch-0.6.5-0.tar.bz2": {
+      "build": "0",
+      "build_number": 0,
+      "depends": [
+        "gpytorch >=1.7",
+        "pyro-ppl >=1.8.0",
+        "pytorch >=1.10",
+        "scipy"
+      ],
+      "license": "MIT",
+      "md5": "96a1500df9117fe84e8c4c9b7e32f13c",
+      "name": "botorch",
+      "noarch": "python",
+      "sha256": "c0d43bd1bc98b038716f11a0b24d4db58e9cd8f94fae19a07c01404bf579b840",
+      "size": 239179,
+      "subdir": "noarch",
+      "timestamp": 1657908733820,
+      "version": "0.6.5"
+    },
+    "botorch-0.6.6-0.tar.bz2": {
+      "build": "0",
+      "build_number": 0,
+      "depends": [
+        "gpytorch >=1.8.1",
+        "pyro-ppl >=1.8.0",
+        "pytorch >=1.10",
+        "scipy"
+      ],
+      "license": "MIT",
+      "md5": "b2776c0d5b5a09e0504aaebfb4ab6c6b",
+      "name": "botorch",
+      "noarch": "python",
+      "sha256": "1d2361a06675d0a52abb5d5f9910fabb7502bb9baeb62f4fc2a2538e894ee5e4",
+      "size": 242637,
+      "subdir": "noarch",
+      "timestamp": 1660340099714,
+      "version": "0.6.6"
+    },
+    "captum-0.1.0-0.tar.bz2": {
+      "build": "0",
+      "build_number": 0,
+      "depends": [
+        "libedit >=3.1.20181209,<3.2.0a0",
+        "libffi >=3.2.1,<4.0a0",
+        "ncurses >=6.1,<7.0a0",
+        "numpy",
+        "openssl >=1.1.1d,<1.1.2a",
+        "pytorch >=1.2",
+        "readline >=7.0,<8.0a0",
+        "sqlite >=3.30.0,<4.0a0",
+        "tk >=8.6.8,<8.7.0a0",
+        "xz >=5.2.4,<6.0a0",
+        "zlib >=1.2.11,<1.3.0a0"
+      ],
+      "license": "BSD",
+      "md5": "53ad04575a837c25e6020185a6c24f84",
+      "name": "captum",
+      "noarch": "python",
+      "sha256": "ee3315edaf24675381a0fc2af0277804acca2037d9574d11bbd57d84b0892aea",
+      "size": 478409,
+      "subdir": "noarch",
+      "timestamp": 1570658092764,
+      "version": "0.1.0"
+    },
+    "captum-0.2.0-0.tar.bz2": {
+      "build": "0",
+      "build_number": 0,
+      "depends": [
+        "matplotlib",
+        "numpy",
+        "pytorch >=1.2"
+      ],
+      "license": "BSD",
+      "md5": "3fb39daff11123608d5fcb58a9e568df",
+      "name": "captum",
+      "noarch": "python",
+      "sha256": "c0b7bc73c0182449654d005224b1284146083bb0a714d711f3fbdb379ce77783",
+      "size": 1082587,
+      "subdir": "noarch",
+      "timestamp": 1583530793267,
+      "version": "0.2.0"
+    },
+    "captum-0.3.0-0.tar.bz2": {
+      "build": "0",
+      "build_number": 0,
+      "depends": [
+        "matplotlib",
+        "numpy",
+        "pytorch >=1.2"
+      ],
+      "license": "BSD",
+      "md5": "26d3a2e879da2754c45930d176ee90ed",
+      "name": "captum",
+      "noarch": "python",
+      "sha256": "9746de683b5bf03b28539d31df86bc50e59e9f0c7a890bc2347cdc640d8d8f77",
+      "size": 4791351,
+      "subdir": "noarch",
+      "timestamp": 1605306344289,
+      "version": "0.3.0"
+    },
+    "captum-0.3.1-0.tar.bz2": {
+      "build": "0",
+      "build_number": 0,
+      "depends": [
+        "matplotlib",
+        "numpy",
+        "pytorch >=1.2"
+      ],
+      "license": "BSD",
+      "md5": "100daa66b09ce63340fad0156f131d63",
+      "name": "captum",
+      "noarch": "python",
+      "sha256": "4ce6fd82216841dfe3a5e1a3e1ee7dd962c2f06dfad0ed02422eb677f8f55793",
+      "size": 1154454,
+      "subdir": "noarch",
+      "timestamp": 1611339405054,
+      "version": "0.3.1"
+    },
+    "captum-0.4.0-0.tar.bz2": {
+      "build": "0",
+      "build_number": 0,
+      "depends": [
+        "matplotlib-base",
+        "numpy",
+        "pytorch >=1.2"
+      ],
+      "license": "BSD",
+      "md5": "827f9fa7dfd76e1987f60b0d95fe8ef2",
+      "name": "captum",
+      "noarch": "python",
+      "sha256": "8944d75274752b8d48de189dd8ff6dd735a2e185e916e9915e5af82238027d41",
+      "size": 1129600,
+      "subdir": "noarch",
+      "timestamp": 1625633403672,
+      "version": "0.4.0"
+    },
+    "captum-0.4.1-0.tar.bz2": {
+      "build": "0",
+      "build_number": 0,
+      "depends": [
+        "matplotlib-base",
+        "numpy",
+        "pytorch >=1.2"
+      ],
+      "license": "BSD",
+      "md5": "592304d8cae132132158cf387249c147",
+      "name": "captum",
+      "noarch": "python",
+      "sha256": "84f848d60e265e9325cc28caeb48480f1ef8c1dd2bcda67ce4d50f129e38e6d4",
+      "size": 1134405,
+      "subdir": "noarch",
+      "timestamp": 1635826195082,
+      "version": "0.4.1"
+    },
+    "captum-0.5.0-0.tar.bz2": {
+      "build": "0",
+      "build_number": 0,
+      "depends": [
+        "matplotlib-base",
+        "numpy",
+        "pytorch >=1.6"
+      ],
+      "license": "BSD",
+      "md5": "75617c7812a45b88f063aa2c5586a404",
+      "name": "captum",
+      "noarch": "python",
+      "sha256": "f962bf412df98c9370fbb46b95bb0763434b7188963239afe54edfff9ec4a1b7",
+      "size": 1154638,
+      "subdir": "noarch",
+      "timestamp": 1646349959424,
+      "version": "0.5.0"
+    },
+    "cpuonly-1.0-0.tar.bz2": {
+      "build": "0",
+      "build_number": 0,
+      "depends": [],
+      "md5": "327848de72e8fd7c33b4bf73f649df80",
+      "name": "cpuonly",
+      "noarch": "generic",
+      "sha256": "24be7df5568a1ec4ddec05a9aec01c33f784bcb57dd9deec1f64c6bf901e93d2",
+      "size": 2002,
+      "subdir": "noarch",
+      "timestamp": 1565108041692,
+      "track_features": "cpuonly",
+      "version": "1.0"
+    },
+    "cpuonly-2.0-0.tar.bz2": {
+      "build": "0",
+      "build_number": 0,
+      "depends": [
+        "pytorch-mutex 1.0 cpu"
+      ],
+      "md5": "1cf3a59ef90a4078c253e3b02c272065",
+      "name": "cpuonly",
+      "noarch": "generic",
+      "sha256": "f9107aca2a9d23a032634644df5cdb8d0185337891593ce540adc480810ab539",
+      "size": 2380,
+      "subdir": "noarch",
+      "timestamp": 1630913615511,
+      "track_features": "cpuonly",
+      "version": "2.0"
+    },
+    "ignite-0.4.3-py_0.tar.bz2": {
+      "build": "py_0",
+      "build_number": 0,
+      "depends": [
+        "python >=3.6",
+        "pytorch >=1.3"
+      ],
+      "license": "BSD",
+      "md5": "542303225e11b5e35ce87c25568eb770",
+      "name": "ignite",
+      "noarch": "python",
+      "sha256": "26794437497086b95096350590ab95f40fb9b28ee383bcf6ff283b829817261b",
+      "size": 108510,
+      "subdir": "noarch",
+      "timestamp": 1612739926079,
+      "version": "0.4.3"
+    },
+    "ignite-0.4.4-py_0.tar.bz2": {
+      "build": "py_0",
+      "build_number": 0,
+      "depends": [
+        "python >=3.6",
+        "pytorch >=1.3"
+      ],
+      "license": "BSD",
+      "md5": "e25818e983043e058f05dbf7540239aa",
+      "name": "ignite",
+      "noarch": "python",
+      "sha256": "2f4807d30e9c333f69ca7bcd3b848867d8888d9f76232c9fcbce524d7be0f521",
+      "size": 109114,
+      "subdir": "noarch",
+      "timestamp": 1614813029323,
+      "version": "0.4.4"
+    },
+    "ignite-0.4.5-py_0.tar.bz2": {
+      "build": "py_0",
+      "build_number": 0,
+      "depends": [
+        "python >=3.6",
+        "pytorch >=1.3"
+      ],
+      "license": "BSD",
+      "md5": "798102cd976bad5efd0320283c4f2bcd",
+      "name": "ignite",
+      "noarch": "python",
+      "sha256": "a6d4819098203c54dbeb866fc50e9c17f33586465350d2f4b806b96b9336e6fe",
+      "size": 121787,
+      "subdir": "noarch",
+      "timestamp": 1624575265416,
+      "version": "0.4.5"
+    },
+    "ignite-0.4.6-py_0.tar.bz2": {
+      "build": "py_0",
+      "build_number": 0,
+      "depends": [
+        "python >=3.6",
+        "pytorch >=1.3"
+      ],
+      "license": "BSD",
+      "md5": "256588a57666ac41c412b8db49284728",
+      "name": "ignite",
+      "noarch": "python",
+      "sha256": "6d0ee2e7d7294fb4eb969c76ea215f5e1af1778d4144cfeb5891c03fc1e47850",
+      "size": 127811,
+      "subdir": "noarch",
+      "timestamp": 1627924018393,
+      "version": "0.4.6"
+    },
+    "ignite-0.4.7-py_0.tar.bz2": {
+      "build": "py_0",
+      "build_number": 0,
+      "depends": [
+        "python >=3.6",
+        "pytorch >=1.3"
+      ],
+      "license": "BSD",
+      "md5": "1f0be661783867dc472f1d09351be193",
+      "name": "ignite",
+      "noarch": "python",
+      "sha256": "d67772b2daa412f04e1f9ae15869ee7ddc32c3b72ec4a290a8ede80530ba4b2f",
+      "size": 132006,
+      "subdir": "noarch",
+      "timestamp": 1634658424195,
+      "version": "0.4.7"
+    },
+    "ignite-0.4.8-py_0.tar.bz2": {
+      "build": "py_0",
+      "build_number": 0,
+      "depends": [
+        "python >=3.6",
+        "pytorch >=1.3"
+      ],
+      "license": "BSD",
+      "md5": "5ee23b8851fc08cef78228963ea02183",
+      "name": "ignite",
+      "noarch": "python",
+      "sha256": "2df2de5bbfcd30cab65bf822e2a16828e565d771c94d39fa362987dba9e30a93",
+      "size": 136740,
+      "subdir": "noarch",
+      "timestamp": 1642433608577,
+      "version": "0.4.8"
+    },
+    "ignite-0.4.9-py_0.tar.bz2": {
+      "build": "py_0",
+      "build_number": 0,
+      "depends": [
+        "python >=3.6",
+        "pytorch >=1.3"
+      ],
+      "license": "BSD",
+      "md5": "0f736d900425a1518a34f26f9c68bf73",
+      "name": "ignite",
+      "noarch": "python",
+      "sha256": "6e8f79b93c4c1094eddb7fc554d0ea3241f574a8871c8f506d02e80a6aba5973",
+      "size": 141572,
+      "subdir": "noarch",
+      "timestamp": 1651696192596,
+      "version": "0.4.9"
+    },
+    "pytorch-mutex-1.0-cpu.tar.bz2": {
+      "build": "cpu",
+      "build_number": 0,
+      "depends": [],
+      "md5": "49565ed726991fd28d08a39885caa88d",
+      "name": "pytorch-mutex",
+      "noarch": "generic",
+      "sha256": "d48c964188ca49660d750cffd73698d217cf94e694cd51987f9f186425435e76",
+      "size": 2897,
+      "subdir": "noarch",
+      "timestamp": 1628062935164,
+      "track_features": "pytorch-mutex",
+      "version": "1.0"
+    },
+    "pytorch-mutex-1.0-cuda.tar.bz2": {
+      "build": "cuda",
+      "build_number": 100,
+      "depends": [],
+      "md5": "a948316e36fb5b11223b3fcfa93f8358",
+      "name": "pytorch-mutex",
+      "noarch": "generic",
+      "sha256": "c16316183f51b74ca5eee4dcb8631052f328c0bbf244176734a0b7d390b81ee3",
+      "size": 2906,
+      "subdir": "noarch",
+      "timestamp": 1628062930777,
+      "version": "1.0"
+    },
+    "torch-model-archiver-0.0.1b20200409-py36_0.tar.bz2": {
+      "build": "py36_0",
+      "build_number": 0,
+      "depends": [
+        "future",
+        "pillow",
+        "psutil",
+        "python"
+      ],
+      "md5": "d87ef83c55fe4e4dc061c1744de720d9",
+      "name": "torch-model-archiver",
+      "noarch": "generic",
+      "sha256": "9bd5378111a2ee815caa478831d356483b32818bb3b2f73cee806d1a460e51a5",
+      "size": 17366,
+      "subdir": "noarch",
+      "timestamp": 1587484254803,
+      "version": "0.0.1b20200409"
+    },
+    "torch-model-archiver-0.0.1b20200409-py37_0.tar.bz2": {
+      "build": "py37_0",
+      "build_number": 0,
+      "depends": [
+        "future",
+        "pillow",
+        "psutil",
+        "python"
+      ],
+      "md5": "a84230e1e9fcd2f23f5ac177d4dd8426",
+      "name": "torch-model-archiver",
+      "noarch": "generic",
+      "sha256": "463156d32467da25c84afcbba7ec56976170eacbb9ec657bc96b48f68d817372",
+      "size": 17371,
+      "subdir": "noarch",
+      "timestamp": 1587484319524,
+      "version": "0.0.1b20200409"
+    },
+    "torch-model-archiver-0.0.1b20200409-py38_0.tar.bz2": {
+      "build": "py38_0",
+      "build_number": 0,
+      "depends": [
+        "future",
+        "pillow",
+        "psutil",
+        "python"
+      ],
+      "md5": "81246ef9cf7e2d60932f1402e52f5bf2",
+      "name": "torch-model-archiver",
+      "noarch": "generic",
+      "sha256": "0845a72871a4c99c1ba760c607cc86a4530d69ed4411e4c3efbb1f7ceaf1ce81",
+      "size": 17358,
+      "subdir": "noarch",
+      "timestamp": 1587484385154,
+      "version": "0.0.1b20200409"
+    },
+    "torch-model-archiver-0.1.1-py36_0.tar.bz2": {
+      "build": "py36_0",
+      "build_number": 0,
+      "depends": [
+        "future",
+        "pillow",
+        "psutil",
+        "python"
+      ],
+      "md5": "5161808534a135f836f539533b6a1a76",
+      "name": "torch-model-archiver",
+      "noarch": "generic",
+      "sha256": "768ee3149eb8a6de728cf8d8bf790affff0621607125fa71454a3ce9d56de4c2",
+      "size": 17239,
+      "subdir": "noarch",
+      "timestamp": 1591722937300,
+      "version": "0.1.1"
+    },
+    "torch-model-archiver-0.1.1-py37_0.tar.bz2": {
+      "build": "py37_0",
+      "build_number": 0,
+      "depends": [
+        "future",
+        "pillow",
+        "psutil",
+        "python"
+      ],
+      "md5": "ca3ec8b615fe66d971c4813c22cc7316",
+      "name": "torch-model-archiver",
+      "noarch": "generic",
+      "sha256": "8281b78e57373728fbe7abc2f0d0f592cbb7442ae6de8cef76813204c9fb3f9f",
+      "size": 17244,
+      "subdir": "noarch",
+      "timestamp": 1591722982486,
+      "version": "0.1.1"
+    },
+    "torch-model-archiver-0.1.1-py38_0.tar.bz2": {
+      "build": "py38_0",
+      "build_number": 0,
+      "depends": [
+        "future",
+        "pillow",
+        "psutil",
+        "python"
+      ],
+      "md5": "42954bbf9d7760dd523ef1cc04f55ba8",
+      "name": "torch-model-archiver",
+      "noarch": "generic",
+      "sha256": "cdc6437f074e02a91f1d30c36baf5ee785b6e68cf3911a739a502124e2d12c53",
+      "size": 17230,
+      "subdir": "noarch",
+      "timestamp": 1591723024895,
+      "version": "0.1.1"
+    },
+    "torch-model-archiver-0.2.0-py36_0.tar.bz2": {
+      "build": "py36_0",
+      "build_number": 0,
+      "depends": [
+        "future",
+        "pillow",
+        "psutil",
+        "python"
+      ],
+      "md5": "55560b6c8c4e9649154d1900b43e0a27",
+      "name": "torch-model-archiver",
+      "noarch": "generic",
+      "sha256": "409d13f8b6bc0e693f5ab3ce69b809ef6dc0935e9cabdb28c159cf6038f27211",
+      "size": 16673,
+      "subdir": "noarch",
+      "timestamp": 1597094025012,
+      "version": "0.2.0"
+    },
+    "torch-model-archiver-0.2.0-py37_0.tar.bz2": {
+      "build": "py37_0",
+      "build_number": 0,
+      "depends": [
+        "future",
+        "pillow",
+        "psutil",
+        "python"
+      ],
+      "md5": "b3d7326c91a929a2ff974cebf4f1b5bf",
+      "name": "torch-model-archiver",
+      "noarch": "generic",
+      "sha256": "77a334b589eb605440fb413dd51ec077a0f695fc52d05e497a17c1ae23e4548b",
+      "size": 16666,
+      "subdir": "noarch",
+      "timestamp": 1597094283743,
+      "version": "0.2.0"
+    },
+    "torch-model-archiver-0.2.0-py38_0.tar.bz2": {
+      "build": "py38_0",
+      "build_number": 0,
+      "depends": [
+        "future",
+        "pillow",
+        "psutil",
+        "python"
+      ],
+      "md5": "f8ca8f9ab2b8f0c3c108e938b3e4ee7d",
+      "name": "torch-model-archiver",
+      "noarch": "generic",
+      "sha256": "0c95b837297f451cbf67c0d566612371db7c1e60909dfd9146717ebc26b539d6",
+      "size": 16660,
+      "subdir": "noarch",
+      "timestamp": 1597094572521,
+      "version": "0.2.0"
+    },
+    "torch-model-archiver-0.2.1-py36_0.tar.bz2": {
+      "build": "py36_0",
+      "build_number": 0,
+      "depends": [
+        "future",
+        "pillow",
+        "psutil",
+        "python"
+      ],
+      "md5": "7d3ab56ae32eb9f99161e03a6e491c81",
+      "name": "torch-model-archiver",
+      "noarch": "generic",
+      "sha256": "bd8a62c48b494b46137056aa2e8812d5d64df8659f35bf0d61dc16d5264485d0",
+      "size": 16645,
+      "subdir": "noarch",
+      "timestamp": 1598477485320,
+      "version": "0.2.1"
+    },
+    "torch-model-archiver-0.2.1-py37_0.tar.bz2": {
+      "build": "py37_0",
+      "build_number": 0,
+      "depends": [
+        "future",
+        "pillow",
+        "psutil",
+        "python"
+      ],
+      "md5": "5930ec89d0cb2622188f07005720dc34",
+      "name": "torch-model-archiver",
+      "noarch": "generic",
+      "sha256": "f164b0bd7968d629f0b068837dc670168ef29da543087b5bd1752e6afcb4caff",
+      "size": 16655,
+      "subdir": "noarch",
+      "timestamp": 1598477552807,
+      "version": "0.2.1"
+    },
+    "torch-model-archiver-0.2.1-py38_0.tar.bz2": {
+      "build": "py38_0",
+      "build_number": 0,
+      "depends": [
+        "future",
+        "pillow",
+        "psutil",
+        "python"
+      ],
+      "md5": "60314ce38ae34d463f4dade1bd3b6ef7",
+      "name": "torch-model-archiver",
+      "noarch": "generic",
+      "sha256": "07c0efa02d1fb4bd1fb294a61af156e7bb42979b6fb2a4b40eba6e23324aa4c9",
+      "size": 16689,
+      "subdir": "noarch",
+      "timestamp": 1598477623159,
+      "version": "0.2.1"
+    },
+    "torch-model-archiver-0.3.0-py36_0.tar.bz2": {
+      "build": "py36_0",
+      "build_number": 0,
+      "depends": [
+        "future",
+        "pillow",
+        "psutil",
+        "python"
+      ],
+      "md5": "e35b1226a504977e3975487f84690333",
+      "name": "torch-model-archiver",
+      "noarch": "generic",
+      "sha256": "9a3cb23376a0c3dfa3eb8e3e3aa2a787a309629099c94949352c192b6fbdbe3f",
+      "size": 14769,
+      "subdir": "noarch",
+      "timestamp": 1608143310372,
+      "version": "0.3.0"
+    },
+    "torch-model-archiver-0.3.0-py37_0.tar.bz2": {
+      "build": "py37_0",
+      "build_number": 0,
+      "depends": [
+        "future",
+        "pillow",
+        "psutil",
+        "python"
+      ],
+      "md5": "d6937aca43ac380a696afd1f7af14255",
+      "name": "torch-model-archiver",
+      "noarch": "generic",
+      "sha256": "cce91386fd80e3a50b7e524448b2faf6a07ba0b8d29ca6357ebb61a6b5c597a2",
+      "size": 14772,
+      "subdir": "noarch",
+      "timestamp": 1608143341060,
+      "version": "0.3.0"
+    },
+    "torch-model-archiver-0.3.0-py38_0.tar.bz2": {
+      "build": "py38_0",
+      "build_number": 0,
+      "depends": [
+        "future",
+        "pillow",
+        "psutil",
+        "python"
+      ],
+      "md5": "8aa77f93efffb0175e6b43ec6c9e315e",
+      "name": "torch-model-archiver",
+      "noarch": "generic",
+      "sha256": "238457e79dc892289f929e7e4b12c9f916378a8cbc1c2c579ce0cf23d058f558",
+      "size": 14769,
+      "subdir": "noarch",
+      "timestamp": 1608143371740,
+      "version": "0.3.0"
+    },
+    "torch-model-archiver-0.3.1-py36_0.tar.bz2": {
+      "build": "py36_0",
+      "build_number": 0,
+      "depends": [
+        "future",
+        "pillow",
+        "psutil",
+        "python"
+      ],
+      "md5": "7a462b76a04921939410a8bd3ff0759a",
+      "name": "torch-model-archiver",
+      "noarch": "generic",
+      "sha256": "68a94058169dd3fb2f5200ea001f5f094d0fc2da720babf42b92dd35e95b34cf",
+      "size": 16879,
+      "subdir": "noarch",
+      "timestamp": 1616092540539,
+      "version": "0.3.1"
+    },
+    "torch-model-archiver-0.3.1-py37_0.tar.bz2": {
+      "build": "py37_0",
+      "build_number": 0,
+      "depends": [
+        "future",
+        "pillow",
+        "psutil",
+        "python"
+      ],
+      "md5": "57e74e8ffb0e7225dffd4f257c7cf24b",
+      "name": "torch-model-archiver",
+      "noarch": "generic",
+      "sha256": "1d98b3c19888d880f36746be5ef8e7f859f0b904af5c721ca239dc416bc69f82",
+      "size": 16862,
+      "subdir": "noarch",
+      "timestamp": 1616092557098,
+      "version": "0.3.1"
+    },
+    "torch-model-archiver-0.3.1-py38_0.tar.bz2": {
+      "build": "py38_0",
+      "build_number": 0,
+      "depends": [
+        "future",
+        "pillow",
+        "psutil",
+        "python"
+      ],
+      "md5": "934f7b437743afedc351f0ade95a7629",
+      "name": "torch-model-archiver",
+      "noarch": "generic",
+      "sha256": "ef2180ba19b079211a2a669bc21fe4f63334b32e9de34059c9759607ec2fb0ce",
+      "size": 16877,
+      "subdir": "noarch",
+      "timestamp": 1616092573722,
+      "version": "0.3.1"
+    },
+    "torchserve-0.0.1b20200409-py36_0.tar.bz2": {
+      "build": "py36_0",
+      "build_number": 0,
+      "depends": [
+        "future",
+        "pillow",
+        "psutil",
+        "python"
+      ],
+      "md5": "9e73cf81d8e36a8d03a768c5b5ee75c6",
+      "name": "torchserve",
+      "noarch": "generic",
+      "sha256": "952bdc14d5505e6090c383c1d88f965403b879acb763121b44372f519b092463",
+      "size": 4541849,
+      "subdir": "noarch",
+      "timestamp": 1587440660847,
+      "version": "0.0.1b20200409"
+    },
+    "torchserve-0.0.1b20200409-py37_0.tar.bz2": {
+      "build": "py37_0",
+      "build_number": 0,
+      "depends": [
+        "future",
+        "pillow",
+        "psutil",
+        "python"
+      ],
+      "md5": "67b160aaa5ec21f9c2619d3d284edbef",
+      "name": "torchserve",
+      "noarch": "generic",
+      "sha256": "17a7aa7708d21d95242f5eb3165d5bfea9e1588d5f6d68c5bbd789d1a7e832b5",
+      "size": 4546620,
+      "subdir": "noarch",
+      "timestamp": 1587440723092,
+      "version": "0.0.1b20200409"
+    },
+    "torchserve-0.0.1b20200409-py38_0.tar.bz2": {
+      "build": "py38_0",
+      "build_number": 0,
+      "depends": [
+        "future",
+        "pillow",
+        "psutil",
+        "python"
+      ],
+      "md5": "14315107caa0026165471eb089418d57",
+      "name": "torchserve",
+      "noarch": "generic",
+      "sha256": "3233e650449bf590172fb19001f76c319181a17c55f079d637c1972ae2e21efe",
+      "size": 4547054,
+      "subdir": "noarch",
+      "timestamp": 1587440787189,
+      "version": "0.0.1b20200409"
+    },
+    "torchserve-0.1.1-py36_0.tar.bz2": {
+      "build": "py36_0",
+      "build_number": 0,
+      "depends": [
+        "future",
+        "pillow",
+        "psutil",
+        "python"
+      ],
+      "md5": "d29b0b99da906c46971b18b138fba22c",
+      "name": "torchserve",
+      "noarch": "generic",
+      "sha256": "a0acc4eef47ebc62cc370f2848b166bc5901521ca206bf3ac4f364a9f490fa38",
+      "size": 4550532,
+      "subdir": "noarch",
+      "timestamp": 1591722793055,
+      "version": "0.1.1"
+    },
+    "torchserve-0.1.1-py37_0.tar.bz2": {
+      "build": "py37_0",
+      "build_number": 0,
+      "depends": [
+        "future",
+        "pillow",
+        "psutil",
+        "python"
+      ],
+      "md5": "f95f5beafeb25078f93c98262cc361c7",
+      "name": "torchserve",
+      "noarch": "generic",
+      "sha256": "65fa98473e86bcd0cdfb09bf46eb187958af7eab7c86f37542689daf24f470fc",
+      "size": 4547159,
+      "subdir": "noarch",
+      "timestamp": 1591722843880,
+      "version": "0.1.1"
+    },
+    "torchserve-0.1.1-py38_0.tar.bz2": {
+      "build": "py38_0",
+      "build_number": 0,
+      "depends": [
+        "future",
+        "pillow",
+        "psutil",
+        "python"
+      ],
+      "md5": "7cfbec75efbf463de1182d18563fc0ff",
+      "name": "torchserve",
+      "noarch": "generic",
+      "sha256": "0c02472d26040ec51cc0f3a267df21184a3dcfe138232d7753accd5260a64013",
+      "size": 4542902,
+      "subdir": "noarch",
+      "timestamp": 1591722891033,
+      "version": "0.1.1"
+    },
+    "torchserve-0.2.0-py36_0.tar.bz2": {
+      "build": "py36_0",
+      "build_number": 0,
+      "depends": [
+        "future",
+        "pillow",
+        "psutil",
+        "python"
+      ],
+      "md5": "0e7f4ebd2ed85b9499cef5d3d98c2bac",
+      "name": "torchserve",
+      "noarch": "generic",
+      "sha256": "763a7f33fd6a6620dd2b35d5697612c6552271b41f505a72cd931202f2efde0b",
+      "size": 4969191,
+      "subdir": "noarch",
+      "timestamp": 1597093156196,
+      "version": "0.2.0"
+    },
+    "torchserve-0.2.0-py37_0.tar.bz2": {
+      "build": "py37_0",
+      "build_number": 0,
+      "depends": [
+        "future",
+        "pillow",
+        "psutil",
+        "python"
+      ],
+      "md5": "de28165d01080469441ea51f63c702ea",
+      "name": "torchserve",
+      "noarch": "generic",
+      "sha256": "e7eafd82655edbb89f5340556bc281ae616776fa3a6532001d96213e741ab624",
+      "size": 4969944,
+      "subdir": "noarch",
+      "timestamp": 1597093471818,
+      "version": "0.2.0"
+    },
+    "torchserve-0.2.0-py38_0.tar.bz2": {
+      "build": "py38_0",
+      "build_number": 0,
+      "depends": [
+        "future",
+        "pillow",
+        "psutil",
+        "python"
+      ],
+      "md5": "f5748c2fde80f95e1fc02b50801b0e22",
+      "name": "torchserve",
+      "noarch": "generic",
+      "sha256": "318bb380594d9bc0b32505c13bebb52c2da026c8ad83824cf9f73285b2d63c81",
+      "size": 4974437,
+      "subdir": "noarch",
+      "timestamp": 1597093764127,
+      "version": "0.2.0"
+    },
+    "torchserve-0.2.1-py36_0.tar.bz2": {
+      "build": "py36_0",
+      "build_number": 0,
+      "depends": [
+        "future",
+        "pillow",
+        "psutil",
+        "python"
+      ],
+      "md5": "a26fddb995471dff8559b6a688549349",
+      "name": "torchserve",
+      "noarch": "generic",
+      "sha256": "0bfbd0983d2c0f61eeb725999257dc549ade5dfc1bfe4151a33837180b2154c4",
+      "size": 4971063,
+      "subdir": "noarch",
+      "timestamp": 1598477256088,
+      "version": "0.2.1"
+    },
+    "torchserve-0.2.1-py37_0.tar.bz2": {
+      "build": "py37_0",
+      "build_number": 0,
+      "depends": [
+        "future",
+        "pillow",
+        "psutil",
+        "python"
+      ],
+      "md5": "5bf406a0927faf9100bcc6d8215f1b34",
+      "name": "torchserve",
+      "noarch": "generic",
+      "sha256": "03d6c9a35720e81b1655521cbff2b1cc3cfd076d7c576335e33e658c37840697",
+      "size": 4966141,
+      "subdir": "noarch",
+      "timestamp": 1598477337323,
+      "version": "0.2.1"
+    },
+    "torchserve-0.2.1-py38_0.tar.bz2": {
+      "build": "py38_0",
+      "build_number": 0,
+      "depends": [
+        "future",
+        "pillow",
+        "psutil",
+        "python"
+      ],
+      "md5": "3ae388b115acb4154ecd2a69b8775957",
+      "name": "torchserve",
+      "noarch": "generic",
+      "sha256": "38092eecee0fbb8f4c04ab194dd24330aa1f4d7f310fad656859090b640f95c8",
+      "size": 4971081,
+      "subdir": "noarch",
+      "timestamp": 1598477411711,
+      "version": "0.2.1"
+    },
+    "torchserve-0.3.0-py36_0.tar.bz2": {
+      "build": "py36_0",
+      "build_number": 0,
+      "depends": [
+        "future",
+        "pillow",
+        "psutil",
+        "python"
+      ],
+      "md5": "5e3c148135f02ace8076a0d681d40dda",
+      "name": "torchserve",
+      "noarch": "generic",
+      "sha256": "1157ed9a55ab506ac697064240d1f2487cb7422b70448f270197c8b43d11346b",
+      "size": 17800443,
+      "subdir": "noarch",
+      "timestamp": 1608143178143,
+      "version": "0.3.0"
+    },
+    "torchserve-0.3.0-py37_0.tar.bz2": {
+      "build": "py37_0",
+      "build_number": 0,
+      "depends": [
+        "future",
+        "pillow",
+        "psutil",
+        "python"
+      ],
+      "md5": "a348809a2fa5589fb39c78f3c141ca9f",
+      "name": "torchserve",
+      "noarch": "generic",
+      "sha256": "f914962a635f8c2d8bb82d295bd8dd4a5fa4d78ef7385a99d059f8b4370dd906",
+      "size": 17808859,
+      "subdir": "noarch",
+      "timestamp": 1608143222113,
+      "version": "0.3.0"
+    },
+    "torchserve-0.3.0-py38_0.tar.bz2": {
+      "build": "py38_0",
+      "build_number": 0,
+      "depends": [
+        "future",
+        "pillow",
+        "psutil",
+        "python"
+      ],
+      "md5": "952833b8f58a502ee38237b8ae9878b8",
+      "name": "torchserve",
+      "noarch": "generic",
+      "sha256": "d6fab3164baac47eb85dc16f9cdf036690a631e54d6b2e9dc88abbfceedb1315",
+      "size": 17807852,
+      "subdir": "noarch",
+      "timestamp": 1608143265911,
+      "version": "0.3.0"
+    },
+    "torchserve-0.3.1-py36_0.tar.bz2": {
+      "build": "py36_0",
+      "build_number": 0,
+      "depends": [
+        "future",
+        "pillow",
+        "psutil",
+        "python"
+      ],
+      "md5": "23f277795a3615db741f83b6b67733f2",
+      "name": "torchserve",
+      "noarch": "generic",
+      "sha256": "2a098942ba2d0a9b53ead5be8e7363c171d2534d97f23d3dd9732bf4d1485e12",
+      "size": 17810712,
+      "subdir": "noarch",
+      "timestamp": 1616092465074,
+      "version": "0.3.1"
+    },
+    "torchserve-0.3.1-py37_0.tar.bz2": {
+      "build": "py37_0",
+      "build_number": 0,
+      "depends": [
+        "future",
+        "pillow",
+        "psutil",
+        "python"
+      ],
+      "md5": "ec1a704e075f021495bfd1849510fafe",
+      "name": "torchserve",
+      "noarch": "generic",
+      "sha256": "400bd50740f05f58ef228d1a3d52ef3bd0ca8987fb63fac8e2b99360d19f3a06",
+      "size": 17815297,
+      "subdir": "noarch",
+      "timestamp": 1616092491776,
+      "version": "0.3.1"
+    },
+    "torchserve-0.3.1-py38_0.tar.bz2": {
+      "build": "py38_0",
+      "build_number": 0,
+      "depends": [
+        "future",
+        "pillow",
+        "psutil",
+        "python"
+      ],
+      "md5": "b841779d60e4c3ce7c1e6fdf21a470ad",
+      "name": "torchserve",
+      "noarch": "generic",
+      "sha256": "578790442aeed082bbaa4dd33b653375f9c84e45d3f7e6465e5759e083ca9f65",
+      "size": 17803995,
+      "subdir": "noarch",
+      "timestamp": 1616092516265,
+      "version": "0.3.1"
+    },
+    "torchtext-0.4.0-pyhb384e40_1.tar.bz2": {
+      "build": "pyhb384e40_1",
+      "build_number": 1,
+      "depends": [
+        "numpy >=1.11",
+        "python",
+        "pytorch >=1.2",
+        "requests",
+        "six",
+        "tqdm"
+      ],
+      "license": "BSD",
+      "md5": "e8292705541ab1a49026bf4e3196af68",
+      "name": "torchtext",
+      "noarch": "python",
+      "sha256": "43f7f1f82641289466cf3bf30ec886d3e37a5a6e7e24b791e49d7a44b9bcb84c",
+      "size": 41046,
+      "subdir": "noarch",
+      "timestamp": 1565277734783,
+      "version": "0.4.0"
+    },
+    "torchtext-0.5.0-py_1.tar.bz2": {
+      "build": "py_1",
+      "build_number": 1,
+      "depends": [
+        "numpy >=1.11",
+        "python",
+        "pytorch >=1.2",
+        "requests",
+        "six",
+        "tqdm"
+      ],
+      "license": "BSD",
+      "md5": "ac716bf07f101554b599a6c2ff921b18",
+      "name": "torchtext",
+      "noarch": "python",
+      "sha256": "b6c2a976a425ef37f701f99cfe5cdc18b78ea3c3a972732946fe859afb299452",
+      "size": 1488556,
+      "subdir": "noarch",
+      "timestamp": 1579117244613,
+      "version": "0.5.0"
+    },
+    "torchtext-0.6.0-py_1.tar.bz2": {
+      "build": "py_1",
+      "build_number": 1,
+      "depends": [
+        "numpy >=1.11",
+        "python",
+        "pytorch >=1.2",
+        "requests",
+        "six",
+        "tqdm"
+      ],
+      "license": "BSD",
+      "md5": "610b928b2b3d0697fddf902d671960f4",
+      "name": "torchtext",
+      "noarch": "python",
+      "sha256": "a78a9e06d297b2a530e5b0f0385b73f6f1ef09bbdd7f1e39e09f881f1eb8d232",
+      "size": 48678,
+      "subdir": "noarch",
+      "timestamp": 1586559594749,
+      "version": "0.6.0"
+    },
+    "torchvision-0.2.1-py_2.tar.bz2": {
+      "build": "py_2",
+      "build_number": 2,
+      "depends": [
+        "numpy >=1.11",
+        "pillow >=4.1.1",
+        "python",
+        "pytorch >=0.4",
+        "six"
+      ],
+      "license": "BSD",
+      "md5": "9312c870ba05d331e0260fae67544f2a",
+      "name": "torchvision",
+      "noarch": "python",
+      "sha256": "d3e75f78045eb45c0338250a7e83b2a5b3daaf270b422cc5e4e8bb96bcbf8015",
+      "size": 37826,
+      "subdir": "noarch",
+      "timestamp": 1544299613813,
+      "version": "0.2.1"
+    },
+    "torchvision-0.2.2-py_2.tar.bz2": {
+      "build": "py_2",
+      "build_number": 2,
+      "depends": [
+        "numpy >=1.11",
+        "pillow >=4.1.1",
+        "python",
+        "pytorch >=1.0.0",
+        "six"
+      ],
+      "license": "BSD",
+      "md5": "e20740584507bc33b56820bf8f37abda",
+      "name": "torchvision",
+      "noarch": "python",
+      "sha256": "0066835e231176747120f5cd62128c41995147d4599059d0c149a2bb0e050f29",
+      "size": 45187,
+      "subdir": "noarch",
+      "timestamp": 1551386968065,
+      "version": "0.2.2"
+    },
+    "torchvision-0.2.2-py_3.tar.bz2": {
+      "build": "py_3",
+      "build_number": 3,
+      "depends": [
+        "numpy >=1.11",
+        "pillow >=4.1.1",
+        "python",
+        "pytorch >=1.0.0",
+        "six"
+      ],
+      "license": "BSD",
+      "md5": "ca1cf90e13649212ed678c624a9031d4",
+      "name": "torchvision",
+      "noarch": "python",
+      "sha256": "be43c99e93402e13647d494243eea4ff508163587f3ca5e49e025d13a8405a35",
+      "size": 45121,
+      "subdir": "noarch",
+      "timestamp": 1551476844031,
+      "version": "0.2.2"
+    },
+    "torchvision-cpu-0.2.1-py_2.tar.bz2": {
+      "build": "py_2",
+      "build_number": 2,
+      "depends": [
+        "numpy >=1.11",
+        "pillow >=4.1.1",
+        "python",
+        "pytorch-cpu >=0.4",
+        "six"
+      ],
+      "license": "BSD",
+      "md5": "f5e7264d0596d9ebb719a3d9b0c9264a",
+      "name": "torchvision-cpu",
+      "noarch": "python",
+      "sha256": "cc969cce63e8ce4f20612e0f05a1a5776a6d3417f426f2cabbca90c1b839c8c1",
+      "size": 37843,
+      "subdir": "noarch",
+      "timestamp": 1544300564773,
+      "version": "0.2.1"
+    },
+    "torchvision-cpu-0.2.2-py_2.tar.bz2": {
+      "build": "py_2",
+      "build_number": 2,
+      "depends": [
+        "numpy >=1.11",
+        "pillow >=4.1.1",
+        "python",
+        "pytorch-cpu >=1.0.0",
+        "six"
+      ],
+      "license": "BSD",
+      "md5": "80d3c9f2cc7a9ea8ef11e65dc762b236",
+      "name": "torchvision-cpu",
+      "noarch": "python",
+      "sha256": "a395229065e305c818dc77c8543430e44d2411fb7e116da8fa9e05687d2b4e07",
+      "size": 45074,
+      "subdir": "noarch",
+      "timestamp": 1551387160147,
+      "version": "0.2.2"
+    },
+    "torchvision-cpu-0.2.2-py_3.tar.bz2": {
+      "build": "py_3",
+      "build_number": 3,
+      "depends": [
+        "numpy >=1.11",
+        "pillow >=4.1.1",
+        "python",
+        "pytorch-cpu >=1.0.0",
+        "six"
+      ],
+      "license": "BSD",
+      "md5": "a356bef24590f013c854c7c29f7439c8",
+      "name": "torchvision-cpu",
+      "noarch": "python",
+      "sha256": "ac77235d81961ea19a68a8ee210e23d520c6f94b2091e94c8ec1ce726fa845db",
+      "size": 45122,
+      "subdir": "noarch",
+      "timestamp": 1551477037319,
+      "version": "0.2.2"
+    }
+  },
+  "packages.conda": {},
+  "removed": [],
+  "repodata_version": 1
+}

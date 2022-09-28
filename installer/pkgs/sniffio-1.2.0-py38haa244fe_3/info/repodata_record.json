@@ -1,0 +1,25 @@
+{
+  "arch": "x86_64",
+  "build": "py38haa244fe_3",
+  "build_number": 3,
+  "channel": "https://conda.anaconda.org/conda-forge/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.8,<3.9.0a0",
+    "python_abi 3.8.* *_cp38"
+  ],
+  "features": "",
+  "fn": "sniffio-1.2.0-py38haa244fe_3.tar.bz2",
+  "license": "Apache-2.0",
+  "license_family": "Apache",
+  "md5": "b8b441863db583a55326e1d29aeec498",
+  "name": "sniffio",
+  "platform": "win32",
+  "sha256": "97acc0d1da94625daa750d0fe5cc10000c5bd3a35f15353d94e195f6b09e3fe8",
+  "size": 16229,
+  "subdir": "win-64",
+  "timestamp": 1648819596867,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/sniffio-1.2.0-py38haa244fe_3.tar.bz2",
+  "version": "1.2.0"
+}

@@ -1,0 +1,43 @@
+{% set name = "h11" %}
+{% set version = "0.13.0" %}
+
+package:
+  name: {{ name|lower }}
+  version: {{ version }}
+
+source:
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: 70813c1135087a248a4d38cc0e1a0181ffab2188141a93eaf567940c3957ff06
+
+build:
+  noarch: python
+  number: 1
+  script: {{ PYTHON }} -m pip install . -vv
+
+requirements:
+  host:
+    - python >=3
+    - pip
+  run:
+    - python >=3
+    - typing_extensions
+
+test:
+  imports:
+    - h11
+
+about:
+  home: https://github.com/python-hyper/h11
+  license: MIT
+  license_family: MIT
+  license_file: LICENSE.txt
+  summary: A pure-Python HTTP/1.1 protocol library.
+  description: |
+    h11 is an HTTP/1.1 protocol library written in Python, heavily inspired by
+    [hyper-h2](https://hyper-h2.readthedocs.io/en/stable/).
+  doc_url: https://h11.readthedocs.io/en/latest/
+  dev_url: https://github.com/python-hyper/h11
+
+extra:
+  recipe-maintainers:
+    - carlodri

@@ -1,0 +1,16 @@
+{
+  "arch": "x86_64",
+  "build": "py38haa95532_0",
+  "build_number": 0,
+  "depends": [
+    "python >=3.8,<3.9.0a0",
+    "typing_extensions 4.3.0 py38haa95532_0"
+  ],
+  "license": "PSF-2.0",
+  "license_family": "PSF",
+  "name": "typing-extensions",
+  "platform": "win",
+  "subdir": "win-64",
+  "timestamp": 1659646914901,
+  "version": "4.3.0"
+}

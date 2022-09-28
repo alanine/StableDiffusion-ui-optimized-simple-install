@@ -1,0 +1,79 @@
+{
+ "build": "h2bbff1b_0",
+ "build_number": 0,
+ "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+ "constrains": [],
+ "depends": [
+  "vc >=14.1,<15.0a0",
+  "vs2015_runtime >=14.16.27012,<15.0a0"
+ ],
+ "extracted_package_dir": "",
+ "features": "",
+ "files": [
+  "Library/bin/sqlite3.dll",
+  "Library/bin/sqlite3.exe",
+  "Library/include/sqlite3.h",
+  "Library/include/sqlite3ext.h",
+  "Library/lib/sqlite3.lib"
+ ],
+ "fn": "sqlite-3.39.2-h2bbff1b_0.conda",
+ "legacy_bz2_md5": "0b2668453442d1ae7ec53e6a086b93ac",
+ "legacy_bz2_size": 1305323,
+ "license": "blessing",
+ "license_family": "Other",
+ "link": {
+  "source": "",
+  "type": 1
+ },
+ "md5": "32169381f2a673abf59e0d4a5ae48be5",
+ "name": "sqlite",
+ "package_tarball_full_path": "",
+ "paths_data": {
+  "paths": [
+   {
+    "_path": "Library/bin/sqlite3.dll",
+    "path_type": "hardlink",
+    "sha256": "22ebe21e37d59e0463f1ad1bf22fb67e96ac4df89f719bc0da1edccf81a91a7b",
+    "sha256_in_prefix": "22ebe21e37d59e0463f1ad1bf22fb67e96ac4df89f719bc0da1edccf81a91a7b",
+    "size_in_bytes": 1455104
+   },
+   {
+    "_path": "Library/bin/sqlite3.exe",
+    "path_type": "hardlink",
+    "sha256": "bc0a956552f43d4155ae40006c2287006c2e9fcba3db6ab142a6c000ad44720a",
+    "sha256_in_prefix": "bc0a956552f43d4155ae40006c2287006c2e9fcba3db6ab142a6c000ad44720a",
+    "size_in_bytes": 1817600
+   },
+   {
+    "_path": "Library/include/sqlite3.h",
+    "path_type": "hardlink",
+    "sha256": "93cbf47cd0ac3e1837a040bd0778bd67e38d5014945a52fdc105ef003e17690e",
+    "sha256_in_prefix": "93cbf47cd0ac3e1837a040bd0778bd67e38d5014945a52fdc105ef003e17690e",
+    "size_in_bytes": 613551
+   },
+   {
+    "_path": "Library/include/sqlite3ext.h",
+    "path_type": "hardlink",
+    "sha256": "7f9ae3bab94bbc62d909fbb0149861b4a0832299f12d7ccbfecc7f28a8d27aa2",
+    "sha256_in_prefix": "7f9ae3bab94bbc62d909fbb0149861b4a0832299f12d7ccbfecc7f28a8d27aa2",
+    "size_in_bytes": 37310
+   },
+   {
+    "_path": "Library/lib/sqlite3.lib",
+    "path_type": "hardlink",
+    "sha256": "8f12910bd00635d55ffbe6c5a354176aa0f9d722c3732b462771add8c36a7020",
+    "sha256_in_prefix": "8f12910bd00635d55ffbe6c5a354176aa0f9d722c3732b462771add8c36a7020",
+    "size_in_bytes": 66522
+   }
+  ],
+  "paths_version": 1
+ },
+ "requested_spec": "None",
+ "sha256": "9c1124de81e126a2e7be1e02d2308897ad94827cfac642fd1c6e9d197eaea7f1",
+ "size": 824025,
+ "subdir": "win-64",
+ "timestamp": 1659712480763,
+ "track_features": "",
+ "url": "https://repo.anaconda.com/pkgs/main/win-64/sqlite-3.39.2-h2bbff1b_0.conda",
+ "version": "3.39.2"
+}

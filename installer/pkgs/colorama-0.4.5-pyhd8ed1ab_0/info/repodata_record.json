@@ -1,0 +1,24 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.6"
+  ],
+  "features": "",
+  "fn": "colorama-0.4.5-pyhd8ed1ab_0.tar.bz2",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "md5": "c267da48ce208905d7d976d49dfd9433",
+  "name": "colorama",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "fcab1a16af5daf3a1ea9b0a7ed15615f0d5fff05ff4925ed570988868bb29e38",
+  "size": 18578,
+  "subdir": "noarch",
+  "timestamp": 1655412612345,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/colorama-0.4.5-pyhd8ed1ab_0.tar.bz2",
+  "version": "0.4.5"
+}

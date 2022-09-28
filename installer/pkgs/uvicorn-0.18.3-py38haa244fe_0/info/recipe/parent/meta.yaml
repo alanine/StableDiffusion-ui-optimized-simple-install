@@ -1,0 +1,92 @@
+{% set version = "0.18.3" %}
+
+package:
+  name: uvicorn-split
+  version: {{ version }}
+
+source:
+  url: https://pypi.io/packages/source/u/uvicorn/uvicorn-{{ version }}.tar.gz
+  sha256: 9a66e7c42a2a95222f76ec24a4b754c158261c4696e683b9dadc72b590e0311b
+
+build:
+  number: 0
+
+outputs:
+  - name: uvicorn
+
+    build:
+      entry_points:
+        - uvicorn = uvicorn.main:main
+    script: uvicorn_build.bat  # [win]
+    script: uvicorn_build.sh  # [not win]
+
+    requirements:
+      build:
+        - python                                 # [build_platform != target_platform]
+        - cross-python_{{ target_platform }}     # [build_platform != target_platform]
+      host:
+        - python
+        - pip
+      run:
+        - python
+        - click >=7.*
+        - h11 >=0.8
+        - typing_extensions  # [py<38]
+
+    test:
+      requires:
+        - pip
+      imports:
+        - uvicorn
+      commands:
+        - pip check
+        - uvicorn --help
+
+  - name: uvicorn-standard
+
+    requirements:
+      host:
+        - python
+        - pip
+        - {{ pin_subpackage('uvicorn', exact=True) }}
+      run:
+        - {{ pin_subpackage('uvicorn', exact=True) }}
+        - websockets >=10.0
+        - httptools >=0.4.0
+        - uvloop >=0.14.0,!=0.15.0,!=0.15.1  # [python_impl == "cpython" and not win]
+        - colorama >=0.4  # [win]
+        - watchfiles >=0.13  # [python_impl == "cpython"]
+        # TODO: deprecated, when watchfiles available for pypy
+        - watchgod >=0.6  # [python_impl == "pypy"]
+        - python-dotenv >=0.13
+        - PyYAML >=5.1
+
+    test:
+      requires:
+        - pip
+      commands:
+        - pip check
+      imports:
+        - uvicorn.supervisors.watchfilesreload  # [python_impl == "cpython"]
+        # TODO: deprecated, when watchfiles available for pypy
+        - uvicorn.supervisors.watchgodreload  # [python_impl == "pypy"]
+
+about:
+  home: https://github.com/encode/uvicorn
+  license: BSD-3-Clause
+  license_family: BSD
+  license_file: LICENSE.md
+  summary: The lightning-fast ASGI server.
+  description: |
+    Uvicorn is a lightning-fast ASGI server implementation,
+    using [uvloop](https://github.com/MagicStack/uvloop) and
+    [httptools](https://github.com/MagicStack/httptools).
+  doc_url: https://www.uvicorn.org/
+  dev_url: https://github.com/encode/uvicorn
+
+extra:
+  feedstock-name: uvicorn
+  recipe-maintainers:
+    - carlodri
+    - ocefpaf
+    - xhochy

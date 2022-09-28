@@ -1,0 +1,25 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "pydantic >=1.6.2,!=1.7,!=1.7.1,!=1.7.2,!=1.7.3,!=1.8,!=1.8.1,<2.0.0",
+    "python >=3.6.1",
+    "starlette 0.19.1.*"
+  ],
+  "features": "",
+  "fn": "fastapi-0.81.0-pyhd8ed1ab_0.tar.bz2",
+  "license": "MIT",
+  "md5": "9149c57f075278a4083ba20fc4196be0",
+  "name": "fastapi",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "0ad1b51315706202f9d6e8928e609eafc3bb2ef78477c6427a72763c422076e0",
+  "size": 46140,
+  "subdir": "noarch",
+  "timestamp": 1661536186588,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/fastapi-0.81.0-pyhd8ed1ab_0.tar.bz2",
+  "version": "0.81.0"
+}

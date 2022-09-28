@@ -1,0 +1,60 @@
+# This file created by conda-build 3.21.8
+# meta.yaml template originally from:
+# D:\a\1\s\recipe, last modified Fri Apr 29 06:51:41 2022
+# ------------------------------------------------
+
+package:
+  name: click
+  version: 8.1.3
+source:
+  sha256: 7682dc8afb30297001674575ea00d1814d808d6a36af415a82bd481d37ba7b8e
+  url: https://pypi.io/packages/source/c/click/click-8.1.3.tar.gz
+build:
+  number: '0'
+  script: D:\\bld\\click_1651215448481\\_h_env\\python.exe -m pip install . --no-deps
+    --ignore-installed --no-cache-dir -vvv
+  string: py38haa244fe_0
+requirements:
+  build: []
+  host:
+    - bzip2 1.0.8 h8ffe710_4
+    - ca-certificates 2021.10.8 h5b45459_0
+    - libffi 3.4.2 h8ffe710_5
+    - libzlib 1.2.11 h8ffe710_1014
+    - openssl 3.0.2 h8ffe710_1
+    - pip 22.0.4 pyhd8ed1ab_0
+    - python 3.8.13 hcf16a7b_0_cpython
+    - python_abi 3.8 2_cp38
+    - setuptools 62.1.0 py38haa244fe_0
+    - sqlite 3.38.3 h8ffe710_0
+    - tk 8.6.12 h8ffe710_0
+    - ucrt 10.0.20348.0 h57928b3_0
+    - vc 14.2 hb210afc_6
+    - vs2015_runtime 14.29.30037 h902a5da_6
+    - wheel 0.37.1 pyhd8ed1ab_0
+    - xz 5.2.5 h62dcd97_1
+  run:
+    - colorama
+    - python >=3.8,<3.9.0a0
+    - python_abi 3.8.* *_cp38
+test:
+  commands:
+    - pip check
+  imports:
+    - click
+  requires:
+    - pip
+about:
+  dev_url: https://github.com/pallets/click
+  doc_url: https://click.palletsprojects.com
+  home: https://palletsprojects.com/p/click
+  license: BSD-3-Clause
+  license_family: BSD
+  license_file: LICENSE.rst
+  summary: Python composable command line interface toolkit
+extra:
+  copy_test_source_files: true
+  final: true
+  recipe-maintainers:
+    - ocefpaf
+    - xylar

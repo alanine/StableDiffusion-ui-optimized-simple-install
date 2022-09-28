@@ -1,0 +1,24 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.7"
+  ],
+  "features": "",
+  "fn": "sniffio-1.3.0-pyhd8ed1ab_0.tar.bz2",
+  "license": "Apache-2.0",
+  "license_family": "Apache",
+  "md5": "dd6cbc539e74cb1f430efbd4575b9303",
+  "name": "sniffio",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "a3fd30754c20ddb28b777db38345ea00d958f46701f0decd6291a81c0f4eee78",
+  "size": 14358,
+  "subdir": "noarch",
+  "timestamp": 1662051357638,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/sniffio-1.3.0-pyhd8ed1ab_0.tar.bz2",
+  "version": "1.3.0"
+}

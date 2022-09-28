@@ -1,0 +1,71 @@
+{
+ "build": "py310h2bbff1b_0",
+ "build_number": 0,
+ "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+ "constrains": [],
+ "depends": [
+  "python >=3.10,<3.11.0a0",
+  "vc >=14.1,<15.0a0",
+  "vs2015_runtime >=14.16.27012,<15.0a0"
+ ],
+ "extracted_package_dir": "",
+ "features": "",
+ "files": [
+  "Lib/site-packages/__pycache__/test_pycosat.cpython-310.pyc",
+  "Lib/site-packages/pycosat-0.6.3-py3.10.egg-info",
+  "Lib/site-packages/pycosat.cp310-win_amd64.pyd",
+  "Lib/site-packages/test_pycosat.py"
+ ],
+ "fn": "pycosat-0.6.3-py310h2bbff1b_0.conda",
+ "legacy_bz2_md5": "e643c1244aa7c94c6d9ba1288e9f3001",
+ "legacy_bz2_size": 101470,
+ "license": "MIT",
+ "link": {
+  "source": "",
+  "type": 1
+ },
+ "md5": "3c88af07111e9c5c8ad0f9a894429ce4",
+ "name": "pycosat",
+ "package_tarball_full_path": "",
+ "paths_data": {
+  "paths": [
+   {
+    "_path": "Lib/site-packages/__pycache__/test_pycosat.cpython-310.pyc",
+    "path_type": "hardlink",
+    "sha256": "f0396d581aeb5707572c2c906ea45c193e63dcc0b9c7a5d34b7d460bf1170c3d",
+    "sha256_in_prefix": "f0396d581aeb5707572c2c906ea45c193e63dcc0b9c7a5d34b7d460bf1170c3d",
+    "size_in_bytes": 12943
+   },
+   {
+    "_path": "Lib/site-packages/pycosat-0.6.3-py3.10.egg-info",
+    "path_type": "hardlink",
+    "sha256": "0b982042b8ee101f039e31b378237936751fbc938b6b68c46ae7f5d53a9e0775",
+    "sha256_in_prefix": "0b982042b8ee101f039e31b378237936751fbc938b6b68c46ae7f5d53a9e0775",
+    "size_in_bytes": 6512
+   },
+   {
+    "_path": "Lib/site-packages/pycosat.cp310-win_amd64.pyd",
+    "path_type": "hardlink",
+    "sha256": "3b536507b7455ce9cb2171b6c684be9b72ad6606cd8f5c9a641eaa8036ae21cd",
+    "sha256_in_prefix": "3b536507b7455ce9cb2171b6c684be9b72ad6606cd8f5c9a641eaa8036ae21cd",
+    "size_in_bytes": 79872
+   },
+   {
+    "_path": "Lib/site-packages/test_pycosat.py",
+    "path_type": "hardlink",
+    "sha256": "6946b85353d64bfb19cd229a6280ead9fec08f3aee39fec77f7e66df95d85205",
+    "sha256_in_prefix": "6946b85353d64bfb19cd229a6280ead9fec08f3aee39fec77f7e66df95d85205",
+    "size_in_bytes": 9078
+   }
+  ],
+  "paths_version": 1
+ },
+ "requested_spec": "None",
+ "sha256": "399413d7749ffd18dfe911280b4709450c4cf62a689699fedcbc247cccd07b04",
+ "size": 74900,
+ "subdir": "win-64",
+ "timestamp": 1642087650722,
+ "track_features": "",
+ "url": "https://repo.anaconda.com/pkgs/main/win-64/pycosat-0.6.3-py310h2bbff1b_0.conda",
+ "version": "0.6.3"
+}

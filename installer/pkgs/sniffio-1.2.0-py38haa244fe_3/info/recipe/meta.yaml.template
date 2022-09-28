@@ -1,0 +1,43 @@
+{% set name = "sniffio" %}
+{% set version = "1.2.0" %}
+
+package:
+  name: {{ name|lower }}
+  version: {{ version }}
+
+source:
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: c4666eecec1d3f50960c6bdf61ab7bc350648da6c126e3cf6898d8cd4ddcd3de
+
+build:
+  number: 3
+  skip: true  # [py<35]
+  script: '{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv '
+
+requirements:
+  build:
+    - python                                 # [build_platform != target_platform]
+    - cross-python_{{ target_platform }}     # [build_platform != target_platform]
+  host:
+    - pip
+    - python
+  run:
+    - python
+    - contextvars >=2.1  # [py<37]
+
+test:
+  imports:
+    - sniffio
+    - sniffio._tests
+
+about:
+  home: https://github.com/python-trio/sniffio
+  license: Apache-2.0
+  license_family: Apache
+  license_file: LICENSE.APACHE2
+  summary: Sniff out which async library your code is running under
+  doc_url: https://sniffio.readthedocs.io
+
+extra:
+  recipe-maintainers:
+    - nicoddemus

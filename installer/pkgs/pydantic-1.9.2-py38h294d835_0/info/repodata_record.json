@@ -1,0 +1,28 @@
+{
+  "arch": "x86_64",
+  "build": "py38h294d835_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.8,<3.9.0a0",
+    "python_abi 3.8.* *_cp38",
+    "typing-extensions >=3.7.4.3",
+    "vc >=14.1,<15",
+    "vs2015_runtime >=14.16.27033"
+  ],
+  "features": "",
+  "fn": "pydantic-1.9.2-py38h294d835_0.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "ef49a5f0ab8aa0c6cd80b18b878f4d31",
+  "name": "pydantic",
+  "platform": "win32",
+  "sha256": "32af5a918547684b9c3d0a7edd94b3e14c609759696fb07187db7b6cfe120d63",
+  "size": 1769741,
+  "subdir": "win-64",
+  "timestamp": 1660287061502,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/pydantic-1.9.2-py38h294d835_0.tar.bz2",
+  "version": "1.9.2"
+}

@@ -1,0 +1,49 @@
+{
+ "build": "h5b45459_0",
+ "build_number": 0,
+ "channel": "https://conda.anaconda.org/conda-forge/win-64",
+ "constrains": [],
+ "depends": [],
+ "extracted_package_dir": "",
+ "features": "",
+ "files": [
+  "Library/ssl/cacert.pem",
+  "Library/ssl/cert.pem"
+ ],
+ "fn": "ca-certificates-2022.6.15-h5b45459_0.tar.bz2",
+ "license": "ISC",
+ "link": {
+  "source": "",
+  "type": 1
+ },
+ "md5": "b84069692c33afe59f31c7117c80696e",
+ "name": "ca-certificates",
+ "package_tarball_full_path": "",
+ "paths_data": {
+  "paths": [
+   {
+    "_path": "Library/ssl/cacert.pem",
+    "path_type": "hardlink",
+    "sha256": "a59fde883a0ef9d74ab9dad009689e00173d28595b57416c98b2ee83280c6e4c",
+    "sha256_in_prefix": "a59fde883a0ef9d74ab9dad009689e00173d28595b57416c98b2ee83280c6e4c",
+    "size_in_bytes": 285222
+   },
+   {
+    "_path": "Library/ssl/cert.pem",
+    "path_type": "hardlink",
+    "sha256": "a59fde883a0ef9d74ab9dad009689e00173d28595b57416c98b2ee83280c6e4c",
+    "sha256_in_prefix": "a59fde883a0ef9d74ab9dad009689e00173d28595b57416c98b2ee83280c6e4c",
+    "size_in_bytes": 285222
+   }
+  ],
+  "paths_version": 1
+ },
+ "requested_spec": "None",
+ "sha256": "81929f2b1bdbb52a0a57f46f7b0aaf8db8cdfc6cbf53a04e5a71e31ce0d64886",
+ "size": 192020,
+ "subdir": "win-64",
+ "timestamp": 1655341115517,
+ "track_features": "",
+ "url": "https://conda.anaconda.org/conda-forge/win-64/ca-certificates-2022.6.15-h5b45459_0.tar.bz2",
+ "version": "2022.6.15"
+}

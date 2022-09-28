@@ -1,0 +1,26 @@
+{
+  "arch": "x86_64",
+  "build": "2_cp38",
+  "build_number": 2,
+  "channel": "https://conda.anaconda.org/conda-forge/win-64",
+  "constrains": [
+    "pypy <0a0"
+  ],
+  "depends": [
+    "python 3.8.*"
+  ],
+  "features": "",
+  "fn": "python_abi-3.8-2_cp38.tar.bz2",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "md5": "80b95487563108d4cf92ff6384050751",
+  "name": "python_abi",
+  "platform": "win32",
+  "sha256": "0ffff169a39edff1701384e09d1af6116b23a569873df5ce32c4985c34cdc2c8",
+  "size": 4531,
+  "subdir": "win-64",
+  "timestamp": 1624472180884,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/python_abi-3.8-2_cp38.tar.bz2",
+  "version": "3.8"
+}

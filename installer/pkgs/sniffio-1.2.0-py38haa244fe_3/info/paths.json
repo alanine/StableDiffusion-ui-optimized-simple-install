@@ -1,0 +1,131 @@
+{
+  "paths": [
+    {
+      "_path": "Lib/site-packages/sniffio-1.2.0.dist-info/INSTALLER",
+      "path_type": "hardlink",
+      "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+      "size_in_bytes": 5
+    },
+    {
+      "_path": "Lib/site-packages/sniffio-1.2.0.dist-info/LICENSE",
+      "path_type": "hardlink",
+      "sha256": "652c878488d1456361e08c3f8607fd7ba59892a14103d15cce4ff93c85b5cc8b",
+      "size_in_bytes": 185
+    },
+    {
+      "_path": "Lib/site-packages/sniffio-1.2.0.dist-info/LICENSE.APACHE2",
+      "path_type": "hardlink",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "size_in_bytes": 11358
+    },
+    {
+      "_path": "Lib/site-packages/sniffio-1.2.0.dist-info/LICENSE.MIT",
+      "path_type": "hardlink",
+      "sha256": "3e6dae555eb92787fc82d1d48355677f454c7f65aeb38d3f9e72bf9a3daf034b",
+      "size_in_bytes": 1046
+    },
+    {
+      "_path": "Lib/site-packages/sniffio-1.2.0.dist-info/METADATA",
+      "path_type": "hardlink",
+      "sha256": "9ae2e19bedeffd039957d418e1b39ff5bee4383338e96efd98224070de1b658a",
+      "size_in_bytes": 3678
+    },
+    {
+      "_path": "Lib/site-packages/sniffio-1.2.0.dist-info/RECORD",
+      "path_type": "hardlink",
+      "sha256": "6eb62687f99a53e7d4649e7d40a0223dc170a1cbc83e6ff3bb13a13ed3453a47",
+      "size_in_bytes": 1566
+    },
+    {
+      "_path": "Lib/site-packages/sniffio-1.2.0.dist-info/REQUESTED",
+      "path_type": "hardlink",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_in_bytes": 0
+    },
+    {
+      "_path": "Lib/site-packages/sniffio-1.2.0.dist-info/WHEEL",
+      "path_type": "hardlink",
+      "sha256": "1b5e87e00dc87a84269cead8578b9e6462928e18a95f1f3373c9eef451a5bcc0",
+      "size_in_bytes": 92
+    },
+    {
+      "_path": "Lib/site-packages/sniffio-1.2.0.dist-info/direct_url.json",
+      "path_type": "hardlink",
+      "sha256": "e4712f42840d71b06044dfd427ad4b4c133cc60eab55945d4452f949bde2091b",
+      "size_in_bytes": 68
+    },
+    {
+      "_path": "Lib/site-packages/sniffio-1.2.0.dist-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "bfd5095c6b390b275d095780a979108963aba69e96b71e86791acfb7dfa38c78",
+      "size_in_bytes": 8
+    },
+    {
+      "_path": "Lib/site-packages/sniffio/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "395a49225bc6b5ef6a6528b4b5b64d88817a731565348910634f6c370f349ba6",
+      "size_in_bytes": 292
+    },
+    {
+      "_path": "Lib/site-packages/sniffio/__pycache__/__init__.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "9afb1b71a13763d5ad39c9163b8c7d442700a65beb1c7917690fc673e114f255",
+      "size_in_bytes": 385
+    },
+    {
+      "_path": "Lib/site-packages/sniffio/__pycache__/_impl.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "fbceed3f67db50b4f2f77c8bba63c4865d45d08af889cfa6c54142abd55e237e",
+      "size_in_bytes": 2449
+    },
+    {
+      "_path": "Lib/site-packages/sniffio/__pycache__/_version.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "b73d53e837d02e9e13ed646211dfe14b07c65880a46a376f58b814813c04800a",
+      "size_in_bytes": 149
+    },
+    {
+      "_path": "Lib/site-packages/sniffio/_impl.py",
+      "path_type": "hardlink",
+      "sha256": "82d3e478686eb3ae5f7c6893b6fd70dea68cadf248d38b9b71532b58c5b6ff94",
+      "size_in_bytes": 2721
+    },
+    {
+      "_path": "Lib/site-packages/sniffio/_tests/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_in_bytes": 0
+    },
+    {
+      "_path": "Lib/site-packages/sniffio/_tests/__pycache__/__init__.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "c304602897d5f0733b80c1c372e934161f967d07e46bcec69a811309da73494b",
+      "size_in_bytes": 135
+    },
+    {
+      "_path": "Lib/site-packages/sniffio/_tests/__pycache__/test_sniffio.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "3c9a731315eead2f140a20bb5ba74461dd46c658e967c6ce058b70bdcdca36bf",
+      "size_in_bytes": 1658
+    },
+    {
+      "_path": "Lib/site-packages/sniffio/_tests/test_sniffio.py",
+      "path_type": "hardlink",
+      "sha256": "c93bf86d1c871f46b2e51a6a5ad75bcc7143e81574db19416b1eb57a7ffe391f",
+      "size_in_bytes": 1648
+    },
+    {
+      "_path": "Lib/site-packages/sniffio/_version.py",
+      "path_type": "hardlink",
+      "sha256": "728761a9629815b47f80a001be16f6fda58e2b0b91a3861094b7043493af1644",
+      "size_in_bytes": 89
+    },
+    {
+      "_path": "Lib/site-packages/sniffio/py.typed",
+      "path_type": "hardlink",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_in_bytes": 0
+    }
+  ],
+  "paths_version": 1
+}

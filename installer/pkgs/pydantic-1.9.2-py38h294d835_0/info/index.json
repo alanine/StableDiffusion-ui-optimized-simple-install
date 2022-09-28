@@ -1,0 +1,19 @@
+{
+  "arch": "x86_64",
+  "build": "py38h294d835_0",
+  "build_number": 0,
+  "depends": [
+    "python >=3.8,<3.9.0a0",
+    "python_abi 3.8.* *_cp38",
+    "typing-extensions >=3.7.4.3",
+    "vc >=14.1,<15",
+    "vs2015_runtime >=14.16.27033"
+  ],
+  "license": "MIT",
+  "license_family": "MIT",
+  "name": "pydantic",
+  "platform": "win",
+  "subdir": "win-64",
+  "timestamp": 1660287061502,
+  "version": "1.9.2"
+}

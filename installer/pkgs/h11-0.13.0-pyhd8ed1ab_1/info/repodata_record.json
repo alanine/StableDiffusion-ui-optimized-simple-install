@@ -1,0 +1,25 @@
+{
+  "build": "pyhd8ed1ab_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3",
+    "typing_extensions"
+  ],
+  "features": "",
+  "fn": "h11-0.13.0-pyhd8ed1ab_1.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "e7cf19f1afe6b3a6a4a9fa383080ebd1",
+  "name": "h11",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "8ef01ca59dd2eb73b187329f6405523d16cb870f77cc8f219fa50b7ac46c17c3",
+  "size": 47581,
+  "subdir": "noarch",
+  "timestamp": 1652727198088,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/h11-0.13.0-pyhd8ed1ab_1.tar.bz2",
+  "version": "0.13.0"
+}

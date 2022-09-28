@@ -1,0 +1,16 @@
+{
+  "arch": "x86_64",
+  "build": "py38haa244fe_3",
+  "build_number": 3,
+  "depends": [
+    "python >=3.8,<3.9.0a0",
+    "python_abi 3.8.* *_cp38"
+  ],
+  "license": "Apache-2.0",
+  "license_family": "Apache",
+  "name": "sniffio",
+  "platform": "win",
+  "subdir": "win-64",
+  "timestamp": 1648819596867,
+  "version": "1.2.0"
+}
