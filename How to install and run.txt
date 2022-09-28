@@ -1,4 +1,7 @@
 To install and then run the astic Art Creator, run art-creator.bat
-If installation fails, run it again to resume.
 
+If installation fails, run it again to resume.
 If installation cannot continue, remove all files and try a fresh installation.
+
+For Simple .exe download for windows, please check:
+https://artificialdesign.org/download/
