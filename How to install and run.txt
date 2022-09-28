@@ -14,4 +14,3 @@ All necessary software will be installed in one click.
 * Includes que support for generating multiple images with a single prompt
 * Optimized Stable Diffusion for low GPU usage. Less than 3.7GB RAM required by GPU.
 * 19.2GB disk space is required after including face correction and upscale models.
-
